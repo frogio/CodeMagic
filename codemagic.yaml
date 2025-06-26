@@ -1,12 +1,3 @@
-workflows:
-  ios-workflow:
-    name: Build iOS
-    environment:
-      flutter: "3.19.0"
-    scripts:
-      - flutter pub get
-      - flutter build ios
-      
 git add codemagic.yaml
 git commit -m 'Add first workflow'
 git push
