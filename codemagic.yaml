@@ -4,8 +4,10 @@ workflows:
     environment:
       flutter: 3.19.0
       xcode: 15.3
-    scripts:
-      - name: Install dependencies
-        script: |
-          flutter pub get
-          flutter build ios --release
+  scripts:
+  - name: Install Flutter dependencies
+    script: |
+      flutter pub get
+  - name: Build iOS
+    script: |
+      flutter build ios --release
