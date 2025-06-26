@@ -1,6 +1,6 @@
 {
-    "name": "toonflix",
-    "short_name": "toonflix",
+    "name": "english_word_app",
+    "short_name": "english_word_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
